@@ -18,6 +18,11 @@ body {
     display: flex;
 }
 
+p {
+    padding-bottom: 0.5em;
+    line-height: 1.2em;
+}
+
 div#left {
     height: 100vh;
     flex: 0 0 40%;
@@ -59,4 +64,25 @@ p#attribution {
 
 p#attribution a {
     color: white;
+}
+
+div#right {
+    background-color: var(--faded-bg-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    font-size: 2rem;
+}
+
+div#right > div,
+div#right > form {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+div#fields {
+    background-color: white;
+
 }
